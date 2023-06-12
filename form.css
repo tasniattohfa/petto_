@@ -1,0 +1,65 @@
+  /* CSS styles for the page container */
+  .page-container {
+    display: flex;
+    justify-content: center; /* Center the form horizontally */
+    align-items: center; /* Center the form vertically */
+    height: 100vh; /* Set the height of the container to the full viewport height */
+    background-image: url("cutucattodoogobg.jpg"); /* Specify the path to your background image */
+    background-size: cover; /* Adjust the background size to cover the container */
+    background-position: center;
+}
+
+/* CSS styles for the form container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: max-content;
+}
+
+/* CSS styles for the form elements */
+.name-inputs {
+    display: flex;
+    gap: 5px;
+}
+
+.fname-bar,
+.lname-bar,
+.email,
+.signup-button {
+    font-size: larger;
+}
+
+.fname-bar,
+.lname-bar {
+    flex: 1;
+    border-radius: 4px;
+    background-color: white;
+    color: #606060;
+    border-color:#606060 ;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 5px;
+}
+
+.email,
+.signup-button {
+    border-radius: 4px;
+    background-color: white;
+    color: #606060;
+    border-color: transparent;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.email{
+    border-color: #606060;
+}
+
+.signup-button {
+    background-color: rgb(41, 118, 211);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
